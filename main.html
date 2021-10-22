@@ -1,0 +1,28 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dict/Skrio</title>
+    <link rel="stylesheet" href ="main.css">
+</head>
+<body class="text">
+    <h1>Dictionary</h1>
+    <p>Type the word to be translated then press the button corresponding to the language you're translating in. <br>
+    Remember: When translating a verb, keep it in the infinitive ,<br>
+    This dictionary recognises English spelling, not American.</p>
+    <h1>Skrio de motos</h1>
+    <p>Skriejs lo moto que vuis estir xancu, apred, cimatejs lo cimiat aveu xanco que vuu.<br>
+    Memorejs: Xi skriis um akxin, suajej qu'est nituxu et ave non "to",<br>
+    Sit skrio vuete qu'Angliaj skiun est vraj, non Amerikanaj.</p><br>
+    <label for="name">To be translated / Ferir xancu:</label><input id="translate" type="text" class="label"/><br><br> 
+    <button onclick='xarliano()'class="button">Anglio-Xarliano<br>English-Charlianic</button>
+    <button onmouseover and onclick='english()' onmouseout='removetext()' class="button2">Charlianic-English<br>Xarliano-Anglio</button>
+    <p id="dictword"></p>
+    <p><a href="https://docs.google.com/document/d/1juh7rrPshEuJOf_sqw6uKkvSp0hnDHxh0Oo28SjXolY/view" target="_blank">
+    The official grammar / L'akseptu ciniunmoto skrio</a></p>
+    <p><a href="http://127.0.0.1:5500/exceptions.html"target="_blank">            
+    Exceptions</a></p>    
+    <script src="main.js"></script>
+</body>
+</html>

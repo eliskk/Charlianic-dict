@@ -1,0 +1,47 @@
+body
+{
+    background: #f5d56c; 
+    padding: 0;
+    margin: 5px,400px;
+}
+
+.button {
+    background-color: rgb(61, 79, 141);
+    border: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button2 {
+    background-color: rgb(61, 79, 141);
+    border: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: monospace;
+    color:white;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: not-allowed;
+  }
+
+  .text{
+  font-family:monospace; 
+  font-size: large;
+  font-variant-ligatures: normal;
+  }
+
+  .label{
+    font-family:monospace;
+    font-variant-ligatures: normal;
+  }
+
+  .button2:hover {opacity: 0.6}
